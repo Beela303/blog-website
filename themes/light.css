@@ -1,0 +1,39 @@
+:root{
+    --hover: #4e7a77;
+
+    --main-color-linear-gradient: linear-gradient(43deg, #87e6e9 0%, #207069 46%, #062c29 100%);
+    --main-color-linear-gradient-hover: linear-gradient(43deg, #062c29 0%, #207069 46%, #87e6e9 100%);
+}
+
+body{
+    color: var(--black) !important;
+    background-color: var(--white) !important;
+}
+
+a{
+    color: var(--black) !important;
+}
+
+button{
+    border: 1px solid var(--main-color2);
+}
+
+nav h1 a{
+    color: var(--white) !important;
+}
+
+a .blog-body,
+#other-posts{
+    color: var(--black);
+}
+
+#pagination p:first-child,
+#pagination p:last-child{
+    color: var(--white);
+}
+
+#pagination p:first-child:hover,
+#pagination p:last-child:hover{
+    border: 2px solid var(--main-color2);
+    background: var(--white);
+}
