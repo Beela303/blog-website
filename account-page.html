@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>		
+	<!-- title -->
+	<title>Account Page | Beela's Blog</title>
+				
+	<!-- meta -->		
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="iE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+
+	<meta name="theme-color" content="#207069">	
+	<meta name="description" content="This is a Blog Website made by Nabila Abubakar(@beela303) for her portfolio.">			
+		
+	<!-- css link -->		
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" id="theme-style" href="">
+
+	<!-- Font awesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://kit.fontawesome.com/ff2a6888e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav>
+		<h1><a href="index.html">Beela's Blog</a></h1>
+
+		<div id="themes">
+			<i class="fas fa-moon themeswitch" id="dark-theme" data-theme="dark"></i>
+			<i class="fas fa-sun themeswitch" id="light-theme" data-theme="light"></i>
+		</div>
+
+		<a href="./index.html" title="Home"><i class="fas fa-home" id="login"></i></a>
+		<a href="./index.html" title="Logout"><i class="fas fas fa-right-from-bracket" id="login"></i></a>
+	</nav>
+
+	<!--=========================== SCROLL TO TOP ================================================-->
+	<button title="Scroll to Top" id="scroll-to-top"><i class="fas fa-arrow-up-long"></i></button>
+
+	<div id="account-page">
+        <h1>ACCOUNT</h1>
+
+        <div id="account-page-img-body">
+            <img src="assets/galactic ocean of dreams.jpg" alt="">
+        </div>
+
+        <div id="account-page-img-body-menu">
+            <button>Change Image</button>
+            <button>Delete</button>
+        </div>
+
+		<hr>
+
+		<h2>Account Profile</h2>
+		<div id="account-profile">
+			<div class="account-line-profile">
+				<p>Username: Beela303</p>
+				<a href="#username-settings"><i class="fas fa-edit"></i></a>
+			</div>
+			<div class="account-line-profile">
+				<p>Email: nabilaabubakar333@gmail.com</p>
+				<a href="#email-settings"><i class="fas fa-edit"></i></a>
+			</div>
+		</div>
+
+		<hr>
+
+        <h2>Account Settings</h2>
+        <form id="account-settings">
+            <div id="username-settings">
+                <label for="username">Username:</label>
+                <input type="text" name="username" placeholder="Username">
+                <button type="submit">Submit</button>
+            </div>
+            <div id="email-settings">
+                <label for="email">Email:</label>
+                <input type="text" name="email" placeholder="Email">
+                <button type="submit">Submit</button>
+            </div>
+            <div id="password-settings">
+                <label for="old password">Old Password:</label>
+                <input type="password" name="old password" placeholder="Old Password">
+                <label for="new password">New Password:</label>
+                <input type="password" name="new password" placeholder="New Password">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+	<!--=========================== FOOTER ================================================-->
+	<footer>
+		<ul id="footer-socials">
+			<li><a href="https://www.instagram.com/beela303" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="https://www.twitter.com/beela303" target="_blank" rel="noopener noreferrer" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/nabilaabubakar" target="_blank" rel="noopener noreferrer" title="Linked-In"><i class="fa-brands fa-linkedin-in"></i></a></li>
+			<li><a href="https://www.youtube.com/@beela303" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+			<li><a href="https://www.tiktok/beela303" target="_blank" rel="noopener noreferrer" title="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+			<li><a href="https://www.pinterest.com/beela303" target="_blank" rel="noopener noreferrer" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a></li>
+			<li><a href="https://www.github.com/beela303" target="_blank" rel="noopener noreferrer" title="Github"><i class="fa-brands fa-github"></i></a></li>
+		</ul>
+
+		<p>Designed & Developed by <a href="beela303.github.io/QueenBeela" target="_blank">Nabila Abubakar</a></p>
+	</footer>
+
+	<!-- js link -->
+	<script src="js\jquery.min.js"> </script>
+	<script src="js/jquery.waypoints.min.js"> </script>
+	<script src="./js/typed.min.js"></script>
+	<script src="js\main.js"> </script>
+</body>
+
+</html>

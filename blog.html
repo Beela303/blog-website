@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>		
+    <!-- title -->
+    <title>Blog Post | Beela's Blog</title>
+                
+    <!-- meta -->		
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="iE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+    
+    <meta name="theme-color" content="#207069">	
+    <meta name="description" content="This is a Blog Website made by Nabila Abubakar(@beela303) for her portfolio.">			
+                
+	<!-- css link -->		
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" id="theme-style" href="">
+
+	<!-- Font awesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://kit.fontawesome.com/ff2a6888e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav>
+		<h1><a href="index.html">Beela's Blog</a></h1>
+
+		<input type="search" name="Search box" id="search-box" placeholder="Search for blogs">
+		<button type="submit" id="open-search-box-phone"><i class="fas fa-search"></i></button>
+
+		<div id="themes">
+			<i class="fas fa-moon themeswitch" id="dark-theme" data-theme="dark"></i>
+			<i class="fas fa-sun themeswitch" id="light-theme" data-theme="light"></i>
+		</div>
+
+		<a href="./login-page.html" target="_blank" title="Login"><i class="fas fa-right-to-bracket" id="login"></i></a>
+	</nav>
+
+	<div id="search-box-phone">
+		<input type="search" name="Search box"placeholder="Search for blogs">
+		<button type="submit"><i class="fas fa-search"></i></button>
+		<i class="fas fa-times" id="close-search-box"></i>
+	</div>
+
+    <div id="reading-progress">
+        <div id="reading-progress-fill"></div>
+    </div>
+
+	<!--=========================== SCROLL TO TOP ================================================-->
+	<button title="Scroll to Top" id="scroll-to-top"><i class="fas fa-arrow-up-long"></i></button>
+    
+	<!--=========================== BLOG POST ================================================-->
+    <div id="blog-post">
+        <div id="blog-post-left">
+            <div id="blog-heading">
+                <!--<a href="./index.html"><i class="fas fa-arrow-left"></i></a>-->
+                <h1>Blog Heading</h1>
+            </div>
+
+            <div id="blog-main-image">
+                <img src="assets/hall of mirage (border).jpg" alt="Hall of Mirage">
+            </div>
+
+            <div class="blog-statstics">
+                <ul>
+                    <li><i class="fas fa-eye"></i> 2456</li>
+                    <li><a href="signup-and-login-page.html" target="_blank"><i class="fas fa-thumbs-up"></i> 46</a></li>
+                    <li><a href="#comments"><i class="fas fa-comments"></i> 50</a></li>
+                    <li><a href="signup-and-login-page.html" target="_blank"><i class="fas fa-bookmark"></i></a></li>
+                    <li><i class="fas fa-download"></i></li>
+                    <li><i class="fas fa-share" class="share-icon"></i></li>
+                </ul>
+
+                <ul class="share-body">
+                    <li><i class="fas fa-copy"></i></li>
+                    <li><i class="fa-brands fa-whatsapp"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                </ul>
+            </div>
+
+            <div id="table-of-contents">
+                <p id="table-of-contents-title">TABLE OF CONTENTS <span id="table-of-contents-show"><i class="fas fa-ellipsis"></i></span></p>
+
+                <ul id="table-of-contents-menu">
+                    <li>Table of contents 1</li>
+                    <li>Table of contents 2</li>
+                    <li id="table-of-contents-sub-menu">Table of contents 2 sub-menu</li>
+                    <li id="table-of-contents-sub-menu">Table of contents 2 sub-menu</li>
+                    <li id="table-of-contents-sub-menu">Table of contents 2 sub-menu</li>
+                    <li id="table-of-contents-sub-sub-menu">Table of contents 2 sub-sub-menu</li>
+                </ul>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem velit quos culpa officiis omnis sapiente sint eligendi mollitia unde suscipit.</p>
+            <p class="link"><a href="./index.html" target="_blank" rel="noopener noreferrer">This is a link</a></p>
+
+            <ul>
+                <li class="numeral-list">This is a list</li>
+                <li>This is a list</li>
+                <li class="numeral-list">This is a list</li>
+            </ul>
+
+            <div class="blog-statstics" id="blog-ending">
+                <ul>
+                    <li><a href="signup-and-login-page.html" target="_blank"><i class="fas fa-thumbs-up"></i> 46</a></li>
+                    <li><a href="#comments"><i class="fas fa-comments"></i> 50</a></li>
+                    <li><a href="signup-and-login-page.html" target="_blank"><i class="fas fa-bookmark"></i></a></li>
+                    <li><i class="fas fa-download"></i></li>
+                    <li><i class="fas fa-share" class="share-icon"></i></li>
+                </ul>
+
+                <ul class="share-body">
+                    <li><i class="fas fa-copy"></i></li>
+                    <li><i class="fa-brands fa-whatsapp"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                </ul>
+            </div>
+
+            <h2><i class="fas fa-comments"></i>Comments</h2>
+            <div id="comments">
+                <div class="comments-ask-reply">
+                    <input type="text" name="Asking to Comment" id="" placeholder="Comment...">
+                    <button type="submit">Submit</button>
+                </div>
+
+                <div class="comments-body">
+                    <div class="main-comment">
+                        <div class="main-comment-img-and-name">
+                            <img src="assets/fashionista in a museum (blue frame, white bg).jpg" alt="Fashionista in a museum" class="comments-user-image">
+                            <p class="comments-username">Beela303</p>
+                            <p class="comments-date">12/2/2022</p>
+                        </div>
+                        <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut animi officiis, fuga, facere architecto temporibus ad excepturi quo nulla repudiandae adipisci ratione beatae dolorum necessitatibus ducimus recusandae ullam accusantium itaque id possimus quam voluptatum corrupti provident. Voluptates id ea debitis beatae itaque, quod, quo voluptatibus maiores officiis quibusdam, laboriosam sapiente.</p>
+                    </div>
+
+                    <div class="comments-ask-reply">
+                        <input type="text" name="Asking to Comment" id="" placeholder="Comment...">
+                        <button type="submit">Submit</button>
+                    </div>
+
+                    <div class="sub-comments">
+                        <div class="main-comment-img-and-name">
+                            <img src="assets/galactic ocean of dreams.jpg" alt="Galactic ocean of dreams" class="comments-user-image">
+                            <p class="comments-username">Beela303</p>
+                            <p class="comments-date">12/2/2022</p>
+                        </div>
+                        <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut animi officiis, fuga, facere architecto temporibus ad excepturi quo nulla repudiandae adipisci ratione beatae dolorum necessitatibus ducimus recusandae ullam accusantium itaque id possimus quam voluptatum corrupti provident. Voluptates id ea debitis beatae itaque, quod, quo voluptatibus maiores officiis quibusdam, laboriosam sapiente.</p>
+                    </div>
+
+                    <div class="sub-sub-comments">
+                        <div class="main-comment-img-and-name">
+                            <img src="assets/below the ocean (1).jpg" alt="Below the ocean" class="comments-user-image">
+                            <p class="comments-username">Beela303</p>
+                            <p class="comments-date">12/2/2022</p>
+                        </div>
+                        <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut animi officiis, fuga, facere architecto temporibus ad excepturi quo nulla repudiandae adipisci ratione beatae dolorum necessitatibus ducimus recusandae ullam accusantium itaque id possimus quam voluptatum corrupti provident. Voluptates id ea debitis beatae itaque, quod, quo voluptatibus maiores officiis quibusdam, laboriosam sapiente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Other Posts</h2>
+            <div id="other-posts">
+                <a href="./blog.html" target="_blank">
+                    <div id="prev-post">
+                        <div class="prev-next-post-heading">
+                            <i class="fas fa-arrow-left"></i>
+                            <p>Previous Post</p>
+                        </div>
+                        <img src="assets/galactic ocean of dreams.jpg" alt="Ocean of dreams">
+                        <p class="prev-next-post-title">How to be an Artist</p>
+                    </div>
+                </a>
+
+                <a href="./blog.html" target="_blank">
+                    <div id="next-post">
+                        <div class="prev-next-post-heading">
+                            <p>Next Post</p>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <img src="assets/the city's starry sky (day).jpg" alt="The city's starry sky (day)">
+                        <p class="prev-next-post-title">How to be an Artist</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="blog-post-right">
+            <h2>Other Posts</h2>
+            <div id="blogs">
+                <a href="blog.html" target="_blank">
+                    <div class="blog-body">
+                        <img src="../website-online/Assets/My Art/Artwork - copyright/2d1c76765ecfaf9743f64fe89d09171b.jpg" alt="">
+                        <p class="blog-title">Lorem Ipsun</p>
+                        <div class="blog-statstics">
+                            <ul>
+                                <li><i class="fas fa-eye"></i> 2456</li>
+                                <li><i class="fas fa-thumbs-up"></i> 46</li>
+                                <li><i class="fas fa-comments"></i> 50</li>
+                            </ul>
+                        </div>
+                        <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quae error asperiores expedita fugiat. Reprehenderit perferendis minima et, a dolores, recusandae libero provident praesentium dolorum quisquam explicabo, ipsam labore quos.</p>
+                    </div>
+                </a>
+                
+                <a href="blog.html" target="_blank">
+                    <div class="blog-body">
+                        <img src="../website-online/Assets/My Art/Artwork - copyright/4a78be619726af1a6538955dd40e0a9c.jpg" alt="">
+                        <p class="blog-title">1st title</p>
+                        <div class="blog-statstics">
+                            <ul>
+                                <li><i class="fas fa-eye"></i> 2456</li>
+                                <li><i class="fas fa-thumbs-up"></i> 46</li>
+                                <li><i class="fas fa-comments"></i> 50</li>
+                            </ul>
+                        </div>
+                        <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quae error asperiores expedita fugiat. Reprehenderit perferendis minima et, a dolores, recusandae libero provident praesentium dolorum quisquam explicabo, ipsam labore quos.</p>
+                    </div>
+                </a>
+                
+                <a href="blog.html" target="_blank">
+                    <div class="blog-body">
+                        <img src="../website-online/Assets/My Art/Artwork - copyright/4ff9fd13fc96d1db516eda2fde0d3f41.jpg" alt="">
+                        <p class="blog-title">2nd title</p>
+                        <div class="blog-statstics">
+                            <ul>
+                                <li><i class="fas fa-eye"></i> 2456</li>
+                                <li><i class="fas fa-thumbs-up"></i> 46</li>
+                                <li><i class="fas fa-comments"></i> 50</li>
+                            </ul>
+                        </div>
+                        <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quae error asperiores expedita fugiat. Reprehenderit perferendis minima et, a dolores, recusandae libero provident praesentium dolorum quisquam explicabo, ipsam labore quos.</p>
+                    </div>
+                </a>
+                
+                <a href="blog.html" target="_blank">
+                    <div class="blog-body">
+                        <img src="../website-online/Assets/My Art/Artwork - copyright/52a3d860d2583c67470fb49e26c1ae6a.jpg" alt="">
+                        <p class="blog-title">3rd title</p>
+                        <div class="blog-statstics">
+                            <ul>
+                                <li><i class="fas fa-eye"></i> 2456</li>
+                                <li><i class="fas fa-thumbs-up"></i> 46</li>
+                                <li><i class="fas fa-comments"></i> 50</li>
+                            </ul>
+                        </div>
+                        <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quae error asperiores expedita fugiat. Reprehenderit perferendis minima et, a dolores, recusandae libero provident praesentium dolorum quisquam explicabo, ipsam labore quos.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+	<!--=========================== FOOTER ================================================-->
+	<footer>
+		<ul id="footer-socials">
+			<li><a href="https://www.instagram.com/beela303" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="https://www.twitter.com/beela303" target="_blank" rel="noopener noreferrer" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/nabilaabubakar" target="_blank" rel="noopener noreferrer" title="Linked-In"><i class="fa-brands fa-linkedin-in"></i></a></li>
+			<li><a href="https://www.youtube.com/channel/UCqT17TUIhhQMHuXjdhnKtQ" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+			<li><a href="https://www.tiktok/beela303" target="_blank" rel="noopener noreferrer" title="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+			<li><a href="https://www.pinterest.com/beela303" target="_blank" rel="noopener noreferrer" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a></li>
+			<li><a href="https://www.github.com/beela303" target="_blank" rel="noopener noreferrer" title="Github"><i class="fa-brands fa-github"></i></a></li>
+		</ul>
+
+		<p>Designed & Developed by <a href="beela303.github.io/QueenBeela" target="_blank">Nabila Abubakar</a></p>
+	</footer>
+
+	<!-- js link -->
+	<script src="js\jquery.min.js"> </script>
+	<script src="./js/jquery.waypoints.min.js"> </script>
+	<script src="./js/typed.min.js"></script>
+	<script src="js\main.js"> </script>
+</body>
+
+</html>
